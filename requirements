@@ -1,0 +1,12 @@
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.8.0
+tensorflow-gpu==2.8.0
+tensorflow-io-gcs-filesystem==0.24.0
+streamlit==1.8.1
+opencv-python==4.5.5.64
+numpy==1.22.3
+keras==2.8.0
+Keras-Preprocessing==1.1.2
+pandas @ file:///C:/ci/pandas_1592833613419/work
