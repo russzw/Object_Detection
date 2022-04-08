@@ -2,13 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
+from tensorflow.keras.applications.inception_v3 import InceptionV3
 from keras.preprocessing import image
 from keras.applications.inception_v3 import preprocess_input, decode_predictions
 import numpy as np
 import cv2
-from keras.models import load_model
+#from keras.models import load_model
 
-model= load_model('inception.h5', compile=(False))
+#load model
+model= InceptionV3()
 
 
 def predict(img, model):
