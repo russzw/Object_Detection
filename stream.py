@@ -54,7 +54,7 @@ def main():
                 if ret == False:
                     break
 
-                path2 ='C:/Users/lenevo/Videos/frames/fr'+ str(i)+ ' .jpg'
+                path2 ='./frames/fr'+ str(i)+ ' .jpg'
                 cv2.imwrite(path2,frame)
 
                 img_path = path2
