@@ -96,7 +96,7 @@ def main():
             # output.release()
             cv2.destroyAllWindows()
 
-        key = st.text_input('Search key')
+        key = st.text_input('Search')
         key = key.lower()
 
         if key is not None:
