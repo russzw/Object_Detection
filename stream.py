@@ -121,4 +121,13 @@ def main():
 if __name__ == '__main__':
     main()
 
-st.header("created by Russell and Brenda")
+#st.header("")
+st.markdown("""
+<style>
+.big-font {
+    font-size:300px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown('<p class="small-font">created by Russell and Brenda</p>', unsafe_allow_html=True)
